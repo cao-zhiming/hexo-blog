@@ -30,10 +30,10 @@ site:
     enabled: true
     width: 40
     height: 40
-    url: ../images/logo.png
-  title: Hexo # 页面title
+    url: ../images/avatar.jpg
+  title: 曹智铭的网站 # 页面title
   favicon: /favicon.png
-  board: <p>欢迎来访我的网站！</p> # 站点公告
+  board: <p>欢迎来访我的Hexo网站！</p> # 站点公告
   copyright: true # 底部版权信息
 
 # config
@@ -189,7 +189,7 @@ profile:
   author: 曹智铭
   author_title: 网站作者&管理员
   author_description: 长期潜伏于caozhiming.tk的碳基生物。
-  location: Beijing, China
+  location: 中国北京
   follow: https://github.com/cao-zhiming
   # Social Links
   social:
