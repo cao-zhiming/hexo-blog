@@ -185,7 +185,7 @@ fb_app_id:
 profile:
   enabled: true # Whether to show profile bar
   avatar: images/avatar.jpg
-  gravatar: xiaocao162020@xiaocao.onmicrosoft.com # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
+  gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: 曹智铭
   author_title: 网站作者&管理员
   author_description: 长期潜伏于caozhiming.tk的碳基生物。
