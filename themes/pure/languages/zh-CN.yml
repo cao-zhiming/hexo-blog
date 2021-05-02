@@ -9,7 +9,7 @@ menu:
   Links: 友链
   About: 关于
 nav:
-  all: All
+  all: 全部
   older: 下一篇
   newer: 上一篇
 page:
@@ -86,9 +86,9 @@ donate:
   wechatpay: 微信支付
 comment: 评论
 tweets: 推文
-share: Share
+share: 分享
 rss_feed: RSS Feed
 copyright:
-  theme_by: Theme by
-  base_on: base on
-  powered_by: Powered by
+  theme_by: 主题
+  base_on: 使用
+  powered_by: 供能：
