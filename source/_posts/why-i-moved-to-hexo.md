@@ -7,6 +7,8 @@ tags:
  - 科技
  - Hexo
  - Web前端
+date: 2021/5/2 20:46:25
+permalink: /2021/05/02/why-i-moved-to-hexo/
 ---
 
 我自2020年9月22日开始运营的WordPress博客，为什么刚半年多就迁站了？你会在本文中找到答案。

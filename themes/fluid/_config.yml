@@ -91,7 +91,7 @@ fun_features:
 
     # 是否循环播放效果
     # If true, loop animation
-    loop: true
+    loop: false
 
   # 为文章内容中的标题添加锚图标
   # Add an anchor icon to the title on the post page
