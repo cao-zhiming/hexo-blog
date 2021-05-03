@@ -61,5 +61,5 @@ permalink: /2021/05/03/setup-comments/
 
 ## BUG更新
 
-Pure主题下，livere可用；但是fluid主题下，livere不显示出全部评论内容。已提交issue。
+Pure主题下，livere可用；但是fluid主题下，livere不显示出全部评论内容。已提交[issue](https://github.com/fluid-dev/hexo-theme-fluid/issues/471)。
 
