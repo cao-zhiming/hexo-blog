@@ -2,6 +2,7 @@
 title: 关于
 permalink: /about/
 notshow: true
+comments: false
 ---
 
 我叫曹智铭，目前就读于[人大附中翠微学校](http://www.rdfzcw.cn/)的初中部。
