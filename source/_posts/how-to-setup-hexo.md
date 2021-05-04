@@ -70,25 +70,25 @@ INFO  Start blogging with Hexo!
 ```
 接下来，你需要生成一些必需的文件。啊不，我是说，**它**需要生成一些。运行这个：
 
-```
+```hexo
 hexo generate
 ```
 
 懒得打这么多字？试试和它等同的短版本指令：
 
-```
+```hexo
 hexo g
 ```
 
 好啦，接下来输入这个：
 
-```
+```hexo
 hexo server
 ```
 
 好吧，如果你坚持你超懒，你可以用：
 
-```
+```hexo
 hexo s
 ```
 
@@ -114,3 +114,33 @@ INFO  Hexo is running at http://localhost:4000. Press Ctrl+C to stop.
 
 接下来，你将会在部署好的```vercel.app```子域名上的网站中看到Hexo那熟悉的界面。接下来，你可以Start blogging ~~and bugging~~ with Hexo了。
 
+## 开始Hexo之旅
+
+因为某些……国内上网问题，GitHub有时无法正常访问，所以我们最好还是通过在本地，Git推送到云端来写博客为妙。（我现在就是这样）
+
+```git
+git clone git@github.com:USERNAME/REPOSITROY
+```
+
+其中，```USERNAME```替换为你的GitHub用户名，```REPOSITORY```替换为你托管着Hexo的GitHub仓库。
+
+**注：在执行本操作前，你可能需要先配置Git。有关如何进行配置，我建议你百度搜索“如何SSH配置Git”。**
+
+接下来，肆意修改你的Hexo吧！要是想预览，可以```hexo s```。若是想直接部署到云端，请执行如下指令：
+
+```git
+git commit "说说你都修改了什么"
+git push origin
+```
+
+好啦！静待若干秒（推送、部署需要时间），你的Hexo网站就会以你修改的样子~~和bug~~出现在你眼前！
+
+## 忘记设置GBH
+
+好吧，这个问题很简单就可以解决。想要实现和Git Bash here（这里简写为GBH）一样的效果，首先通过任何途径打开Git Bash（例如，从Windows左下角“开始”菜单找到它并双击打开），然后输入：
+
+```git
+cd DIR
+```
+
+其中```DIR```应当是你所想要在本地部署Hexo的文件夹的**绝对路径**。例如：<strong>E:\blog\hexo\</strong>。请尽量避免整个路径中出现任何空格、中文字符或某些特殊符号，因为它们可能导致未知的错误。
