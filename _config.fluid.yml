@@ -820,7 +820,7 @@ about:
   banner_img: /img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
-  subtitle:
+  subtitle: 
   avatar: /img/avatar.png
   name: "关于"
   intro: "曹智铭的网站"
