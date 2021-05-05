@@ -102,7 +102,7 @@ theme: fluid
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 'baidu_url_submitter'
+  type: baidu_url_submitter
 
 
 # 自动生成sitemap
