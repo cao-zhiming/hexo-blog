@@ -102,7 +102,7 @@ theme: fluid
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'baidu_url_submitter'
 
 
 # 自动生成sitemap
@@ -110,3 +110,10 @@ sitemap:
 path: sitemap.xml
 baidusitemap:
 path: baidusitemap.xml
+
+baidu_url_submit:
+  count: 100
+  host: blog.caozhiming.tk
+  token: IhxR4B089Q7zxAdw
+  path: baidu_urls.txt
+
