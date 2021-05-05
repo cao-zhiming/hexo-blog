@@ -872,7 +872,7 @@ links:
       title: "Micraow Blog",
       intro: "朋友Micraow的博客",
       link: "https://msblog.ml/",
-      avatar: "/img/favicon.png"
+      avatar: "/img/micraow.png"
     }
 
   # 当成员头像加载失败时，替换为指定图片
@@ -888,7 +888,7 @@ links:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo

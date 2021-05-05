@@ -26,7 +26,9 @@ permalink: /2021/05/04/how-to-setup-hexo/
 
 先新建一个文件夹，爱建哪儿就~~别~~建哪儿。
 
-OK了？现在，我建议你去[下载Git](http://git-scm.com/downloads)。因为用它部署Hexo超级方便。注意！在安装时，一定要把```在文件夹中Git Bash here```的选项打开，否则会有些难搞。如果实在忘了，好吧，那么请看[忘记设置GBH](#忘记设置GBH)。
+OK了？现在，我建议你去[下载Git](http://git-scm.com/downloads)。因为用它部署Hexo超级方便。
+
+注意！在安装时，一定要把```在文件夹中Git Bash here```的选项打开，否则会有些难搞。如果实在忘了，那么请看[忘记设置GBH](#忘记设置GBH)。
 
 接下来，打开你的那个文件夹。右键空白，点击```Git Bash here```。然后，在新打开的黑色指令行中，先初始化Git。
 
@@ -50,8 +52,10 @@ npm config set registry http://r.cnpmjs.org/
 npm install -g hexo-cli
 hexo init
 ```
+<p class="note note-warning">
+如果文件夹不是空的，第二个指令输入后会报错。</p>
 
-如果文件夹不是空的，第二个指令输入后会报错。这两个指令分别输入成功后，分别返回：
+这两个指令分别输入成功后，分别返回：
 
 ```
 + hexo-cli@X.X.X  //这X.X.X是版本号
@@ -119,12 +123,13 @@ INFO  Hexo is running at http://localhost:4000. Press Ctrl+C to stop.
 因为某些……国内上网问题，GitHub有时无法正常访问，所以我们最好还是通过在本地，Git推送到云端来写博客为妙。（我现在就是这样）
 
 ```git
-git clone git@github.com:USERNAME/REPOSITROY
+git clone git@github.com:USERNAME/REPOSITROY.git
 ```
 
 其中，```USERNAME```替换为你的GitHub用户名，```REPOSITORY```替换为你托管着Hexo的GitHub仓库。
 
-**注：在执行本操作前，你可能需要先配置Git。有关如何进行配置，我建议你百度搜索“如何SSH配置Git”。**
+<p class="note note-warning">
+注：在执行本操作前，你可能需要先配置Git。有关如何进行配置，我建议你百度搜索“如何SSH配置Git”。</p>
 
 接下来，肆意修改你的Hexo吧！要是想预览，可以```hexo s```。若是想直接部署到云端，请执行如下指令：
 
