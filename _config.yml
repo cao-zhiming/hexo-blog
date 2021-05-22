@@ -97,12 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: fluid
-
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: baidu_url_submitter
+theme: nexmoe
 
 
 # 自动生成sitemap
@@ -116,4 +111,10 @@ baidu_url_submit:
   host: blog.caozhiming.tk
   token: IhxR4B089Q7zxAdw
   path: baidu_urls.txt
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: baidu_url_submitter
+
 
