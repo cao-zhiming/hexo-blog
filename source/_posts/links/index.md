@@ -22,11 +22,11 @@ layout: py
 
 ## 交换链接
 
-- 请在你的网站上添加如下友情链接：
+请在你的网站上添加如下友情链接：
 
 > 名称：曹智铭的网站
 > 链接：https://blog.caozhiming.tk/
 > 图片：https://cdn.jsdelivr.net/gh/cao-zhiming/ss-caozhimingtk@latest/img/logo.png
 > 描述：长期潜伏于caozhiming.tk的碳基生物。
 
-- 然后在下方按照相同的格式评论你的网站的相关内容。我会尽快审核并添加。
+然后在下方按照相同的格式评论你的网站的相关内容。我会尽快审核并添加。
