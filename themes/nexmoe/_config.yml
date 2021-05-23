@@ -27,17 +27,19 @@ cdn: # 这里可以修改站点使用的库的CDN
   copy: https://cdn.jsdelivr.net/gh/xtaodada/xtaodada.github.io@0.0.2/copy.js
 
 menu:
-  回到首页: 
+  首页: 
     - /
     - icon-home
-#  文章归档: 
-#    - /archives.html
-#    - icon-container
+  文章归档: 
+    - /archives/
+    - icon-container
   关于博客:
     - /about/
     - icon-info-circle
   我的朋友: 
     - /links/
+  公共云盘: 
+    - https://cloud.caozhiming.tk/
 
 widgets:
 - search
@@ -61,11 +63,11 @@ social:
     - icon-twitter
     - rgb(29, 161, 242)
     - rgba(29, 161, 242, .1)
-  Telegram:
-    - https://t.me/xiaocao162020
-    - icon-telegram
-    - rgb(239, 167, 229)
-    - rgba(39, 167, 229, .1)
+  Email:
+    - mailto:caozhiming@caozhiming.tk
+    - icon-mail-fill
+    - rgb(9, 9, 9)
+    - rgba(9, 9, 9, .1)
 
 site_verification: # 向搜索引擎验证你对站点的所有权，用于向搜索引擎提交 sitemap 和管理站点被搜索引擎收录的情况。
   google:
@@ -87,7 +89,7 @@ gitalk:
   owner: nexmoe # 持有该 repo 的 GitHub username
   repo: nexmoe.github.io # 存放评论的 issue 所在的 repo
   clientID: 80b2453b6d5f37ad6225 # GitHub Client ID
-  clientSecret: 43e99fa852795c9a7b3eb924b2558c64b84bbdeb # GitHub Client Secret
+  clientSecret:  # GitHub Client Secret
 
 gitment:
   owner: nexmoe # 持有该 repo 的 GitHub username
@@ -141,4 +143,4 @@ widgetLink: #链接组件
     img : <img_path>
     link : <url>
 
-sidebar: '欢迎到访曹智铭的网站！'
+sidebar: ''

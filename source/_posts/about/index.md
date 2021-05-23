@@ -3,12 +3,14 @@ title: 关于
 permalink: /about/
 notshow: true
 comments: false
+date: 2021/5/1 00:00:01
 layout: about
 ---
 
 ## 我是谁？
 
 我叫曹智铭，目前就读于[人大附中翠微学校](http://www.rdfzcw.cn/)的初中部。
+<!-- more -->
 
 ## 我在哪儿？
 
