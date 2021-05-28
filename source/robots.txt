@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Sitemap: https://blog.caozhiming.tk/sitemap.xml
+Sitemap: https://blog.caozhiming.tk/baidusitemap.xml
