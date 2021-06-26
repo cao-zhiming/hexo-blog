@@ -12,4 +12,4 @@ notshow: true
 ## 中考实时倒计时
 
 <!-- more -->
-<iframe src="/exam-time/"></iframe>
+<iframe src="https://ss.caozhiming.tk/exam-time.html"></iframe>
