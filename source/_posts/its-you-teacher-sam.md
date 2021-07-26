@@ -19,7 +19,8 @@ permalink: /2021/07/26/its-you-teacher-sam/
 <scipt src="https://ss.caozhiming.tk/js/sweetalert.js"></script>
 
 <script type="text/javascript">
-swal("本文并无技术内容，如想查看技术内容请退出！","info");</script>
+swal("注意", "本文无任何技术内容，如仅看技术请退出", "info");
+</script>
 
 ## Sam, hello!
 
