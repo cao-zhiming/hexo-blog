@@ -8,7 +8,7 @@
     "icons":[
         {
             "src":"https://cdn.jsdelivr.net/gh/cao-zhiming/ss-caozhimingtk/img/logo.png",
-            "sizes":"290*290",
+            "sizes":"290 290",
             "type": "image/png"
         }
     ]
