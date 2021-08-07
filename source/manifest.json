@@ -1,0 +1,15 @@
+{
+    "name":"曹智铭的网站",
+    "short_name":"曹智铭",
+    "start_url":"./",
+    "display":"standalone",
+    "description":"曹智铭的个人博客。",
+    "theme_color": "#fff",
+    "icons":[
+        {
+            "src":"https://cdn.jsdelivr.net/gh/cao-zhiming/ss-caozhimingtk/img/logo.png",
+            "sizes":"290*290",
+            "type": "image/png"
+        }
+    ]
+}
