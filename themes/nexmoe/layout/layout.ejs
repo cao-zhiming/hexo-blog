@@ -65,15 +65,15 @@ window.addEventListener("load", () => {
           `Service Worker registration successful with scope: ${registration.scope}`
         )
       )
+      // 当注册失败时显示失败原因
+      .catch((error) =>
+        console.warn(`Service Worker registration failed: ${error}`)
+      );
       navigator.serviceWorker.addEventListener("controllerchange", () => {
       // 更新 Service Worker 要求当前页面进行刷新操作，可以通过对title的操作来引导用户更新。
       let d = document.querySelector("title");
       d.innerText = `Need Refresh - ${d.innerText}`;
     });
-      // 当注册失败时显示失败原因
-      .catch((error) =>
-        console.warn(`Service Worker registration failed: ${error}`)
-      );
   }
 });
 </script>
