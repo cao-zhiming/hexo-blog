@@ -49,33 +49,19 @@ var _hmt = _hmt || [];
 </head>
 
 <body class="mdui-drawer-body-left">
-<script type="text/javascript">
-// 当加载页面完成后再加载Service Worker
-window.addEventListener("load", () => {
-  // 判断是否允许或支持 serviceWorker
-  if ("serviceWorker" in navigator) {
-    // 注册 /sw.js 为 Service Worker，注册到 / 路径下
-    navigator.serviceWorker
-      .register("/sw.js", {
-        scope: "/",
-      })
-      // 当注册成功时显示当前注册路径
-      .then((registration) =>
-        console.info(
-          `Service Worker registration successful with scope: ${registration.scope}`
-        )
-      )
-      // 当注册失败时显示失败原因
-      .catch((error) =>
-        console.warn(`Service Worker registration failed: ${error}`)
-      );
-      navigator.serviceWorker.addEventListener("controllerchange", () => {
-      // 更新 Service Worker 要求当前页面进行刷新操作，可以通过对title的操作来引导用户更新。
-      let d = document.querySelector("title");
-      d.innerText = `Need Refresh - ${d.innerText}`;
-    });
-  }
-});
+<script>
+if (‘serviceWorker’ in navigator) {
+ window.addEventListener(‘load’, function() {  
+   navigator.serviceWorker.register(‘/sw.js’).then(
+     function(registration) {
+       // Registration was successful
+       console.log(‘ServiceWorker registration successful with scope: ‘, registration.scope); },
+     function(err) {
+       // registration failed :(
+       console.log(‘ServiceWorker registration failed: ‘, err);
+     });
+ });
+}
 </script>
   <%- partial('_partial/_analytics/gtm-body') %>
   <div id="nexmoe-background">
