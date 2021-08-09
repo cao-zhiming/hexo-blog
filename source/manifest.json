@@ -4,7 +4,7 @@
     "start_url":"./",
     "display":"standalone",
     "description":"曹智铭的个人博客。",
-    "theme_color": "#fff",
+    "theme_color": "#2932e1",
     "icons":[
         {
             "src":"https://blog.caozhiming.tk/logo.png",
