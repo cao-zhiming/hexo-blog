@@ -8,7 +8,7 @@
     "icons":[
         {
             "src":"https://blog.caozhiming.tk/logo.png",
-            "sizes":"290 290",
+            "sizes":"290x290",
             "type": "image/png"
         }
     ]
