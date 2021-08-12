@@ -88,7 +88,7 @@ type是图标的种类，与解码有关，常用的是image/png等等。**不�
 
 ```html
 <link rel="manifest" href="/manifest.json"/>
-<metaname="theme-color"content="#8888ff"/> //这个应当与你在manifest.json当中的theme_color项设置内容一致
+<meta name="theme-color"content="#8888ff"/> //这个应当与你在manifest.json当中的theme_color项设置内容一致
 ```
 
 如果有需要（例如，有些页面不直接在根目录下），可以在href中使用绝对地址。（特殊地，Hexo请在/themes/<你安装并启用的主题>/layout/layout.ejs的head标签内嵌入上方代码，并在其第一个斜杠前加上你的网站的根URL，包括协议前缀，例如<strong>https://blog.caozhiming.tk</strong>）
