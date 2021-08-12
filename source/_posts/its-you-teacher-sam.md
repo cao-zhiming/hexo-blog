@@ -16,7 +16,7 @@ permalink: /2021/07/26/its-you-teacher-sam/
 
 <!-- more -->
 
-<scipt src="https://ss.caozhiming.tk/js/sweetalert.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/cao-zhiming/ss-caozhimingtk/js/sweetalert.js"></script>
 
 <script type="text/javascript">
 swal("注意", "本文无任何技术内容，如仅看技术请退出", "info");
@@ -129,3 +129,7 @@ Sam“预言”我们的下一位外教是一位美国小姐，还真猜对了�
 六年级，Lucy进行了她教育生涯中最后一场赛课。这是因为她体力无法支持更多的以后的赛课了。讲的是Music。我被要求做了一个**把同学家长、老师用英文讲最喜欢的歌的片段结合在一起，并最终汇聚成一个地球图案的视频**。当我逐一翻看素材时，一个熟悉的金发碧眼男子进入眼帘——Sam！他还是原先的模样，穿着一件绿衬衫，坐在一把凳子上，说着他喜欢的“Irish folk music”……
 
 时光流逝，我们的一生中总会流过一个又一个人。许多人，在岁月中不知不觉地被遗忘，但有些人，会永远被你记得。Sam就会永远被我、被我的小学同学们，记得。
+
+![Sam和我们](https://cdn.jsdelivr.net/gh/cao-zhiming/ss-caozhimingtk@0.9.2/img/sam-and-us.jpeg)
+
+这是Sam与我们的离别会上的一张照片。**请注意，本照片仅供观赏，其它用途均属于违法、侵权行为。**
