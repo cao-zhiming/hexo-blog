@@ -15,7 +15,7 @@ layout: about
 ## 我在哪儿？
 
 我在互联网上的许多角落都有足迹。大部分情况，我的账号的用户名或/和昵称为```曹智铭```或者```caozhiming```。当然，我也可能用了其他名称，
-例如在GitHub上我是[cao-zhiming](http://github.com/cao-zhiming)（昵称是“曹智铭”）；在Twitter上我是[caozhiming2020](http://twitter.com/caozhiming2020)，等。
+例如在GitHub上我是[@cao-zhiming](http://github.com/cao-zhiming)（昵称是“曹智铭”）；在Twitter上我是[@caozhiming2020](http://twitter.com/caozhiming2020)，等。
 
 ## 我在干（可以干）什么？
 
@@ -25,3 +25,4 @@ layout: about
 ## 我该如何信任你？
 
 我是```caozhiming.tk```的合法所有者，并已经在[Keybase](http://keybase.io)存储了[pgp key](https://keybase.io/caozhiming)。
+
