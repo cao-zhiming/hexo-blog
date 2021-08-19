@@ -5,6 +5,8 @@
 <head>
 <link rel="manifest" href="https://blog.caozhiming.tk/manifest.json"/>
 <link rel="icon" href="https://cdn.jsdelivr.net/gh/cao-zhiming/ss-caozhimingtk/img/logo.png"/>
+<link rel='stylesheet' id='wp-dark-mode-frontend-css'  href='https://cdn.jsdelivr.net/gh/cao-zhiming/ss-caozhimingtk@0.9.4/css/frontend.css' media='all' />
+<script src='https://cdn.jsdelivr.net/gh/cao-zhiming/ss-caozhimingtk@0.9.4/js/dark-mode.js' id='wp-dark-mode-js-js'></script>
 <meta name="theme-color"content="#2932e1"/>
   <%
   var title = page.title;
@@ -48,6 +50,8 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
+<link rel='stylesheet' id='wp-dark-mode-frontend-css'  href='https://cdn.jsdelivr.net/gh/cao-zhiming/ss-caozhimingtk@0.9.4/css/frontend.css' media='all' />
+<script src='https://cdn.jsdelivr.net/gh/cao-zhiming/ss-caozhimingtk@0.9.4/js/dark-mode.js' id='wp-dark-mode-js-js'></script>
 <script type='text/javascript'>
 if ('serviceWorker' in navigator) {
  window.addEventListener('load', function() {  
@@ -62,6 +66,39 @@ if ('serviceWorker' in navigator) {
  });
 }
 </script>
+<script>
+                    (function () {
+                        window.wpDarkMode = {"config":{"brightness":100,"contrast":90,"sepia":10},"enable_preset":false,"customize_colors":false,"colors":{"bg":"#000","text":"#dfdedb","link":"#e58c17"},"enable_frontend":true,"enable_backend":false,"enable_os_mode":true,"excludes":"rs-fullwidth-wrap,.mejs-container","includes":"","is_excluded":false,"remember_darkmode":false,"default_mode":false,"keyboard_shortcut":true,"images":"","is_pro_active":false,"is_ultimate_active":false,"pro_version":0,"is_elementor_editor":false,"is_block_editor":false,"frontend_mode":false};
+                        const is_saved = localStorage.getItem('wp_dark_mode_active');
+
+                        const isCustomColor = parseInt("");
+
+                        if ((is_saved && is_saved != 0) || (!is_saved && wpDarkMode.default_mode)) {
+                            document.querySelector('html').classList.add('wp-dark-mode-active');
+
+                            //preload CSS
+                            if (!isCustomColor) {
+                                var css = `body, div, section, header, article, main, aside{background-color: #2B2D2D !important;}`;
+
+                                var head = document.head || document.getElementsByTagName('head')[0],
+                                    style = document.createElement('style');
+
+                                style.setAttribute('id', 'pre_css');
+
+                                head.appendChild(style);
+
+                                style.type = 'text/css';
+                                if (style.styleSheet) {
+                                    // This is required for IE8 and below.
+                                    style.styleSheet.cssText = css;
+                                } else {
+                                    style.appendChild(document.createTextNode(css));
+                                }
+                            }
+
+                        }
+                    })();
+                </script>
 </head>
 
 <body class="mdui-drawer-body-left">
@@ -109,7 +146,95 @@ if ('serviceWorker' in navigator) {
     </div>
   </div>
   <%- partial('_partial/after-footer') %>
+  <script>
+                ;(function () {
+                    //Handle excludes
+                    if ('' !== `rs-fullwidth-wrap,.mejs-container`) {
+                        const elements = document.querySelectorAll(`rs-fullwidth-wrap,.mejs-container`);
+
+                        elements.forEach((element) => {
+                            element.classList.add('wp-dark-mode-ignore');
+                            const children = element.querySelectorAll('*');
+
+                            children.forEach((child) => {
+                                child.classList.add('wp-dark-mode-ignore');
+                            });
+                        });
+                    }
+
+                    //handle includes
+                    if ('' !== ``) {
+                        const elements = document.querySelectorAll(``);
+
+                        elements.forEach((element) => {
+                            element.classList.add('wp-dark-mode-include');
+                            const children = element.querySelectorAll('*');
+
+                            children.forEach((child) => {
+                                child.classList.add('wp-dark-mode-include');
+                            })
+                        });
+                    }
+
+                    //Font size toggle
+                    ;(function () {
+                        const toggle = document.querySelector('.wp-dark-mode-font-size-toggle');
+
+                        if (!toggle) {
+                            return;
+                        }
+
+                        const isActive = localStorage.getItem('wp_dark_mode_large_font');
+
+                        if ('true' === isActive) {
+                            document.querySelector('body').classList.add('wp-dark-mode-large-font');
+                            toggle.classList.add('active');
+                        }
+
+                    })();
+                })();
+            </script>
+
+			
+                <script>
+                    ;(function () {
+
+                        window.wpDarkMode = {"config":{"brightness":100,"contrast":90,"sepia":10},"enable_preset":false,"customize_colors":false,"colors":{"bg":"#000","text":"#dfdedb","link":"#e58c17"},"enable_frontend":true,"enable_backend":false,"enable_os_mode":true,"excludes":"rs-fullwidth-wrap,.mejs-container","includes":"","is_excluded":false,"remember_darkmode":false,"default_mode":false,"keyboard_shortcut":true,"images":"","is_pro_active":false,"is_ultimate_active":false,"pro_version":0,"is_elementor_editor":false,"is_block_editor":false,"frontend_mode":false};
+                        const is_saved = localStorage.getItem('wp_dark_mode_active');
+
+                        if ((is_saved && is_saved != 0) || (!is_saved && wpDarkMode.default_mode)) {
+                            const isCustomColor = parseInt("");
+
+                            if (!isCustomColor) {
+
+                                //remove preload css
+                                if (document.getElementById('pre_css')) {
+                                    document.getElementById('pre_css').remove();
+                                }
+
+                                if ('' === ``) {
+                                    DarkMode.enable();
+
+                                }
+                            }
+                        }
+                    })();
+
+
+                </script>
+			<div class="wp-dark-mode-switcher wp-dark-mode-ignore style-3   floating right_bottom">
+
+	
+    <label for="wp-dark-mode-switch" class="wp-dark-mode-ignore wp-dark-mode-none">
+        <img class="sun-light" src="https://cdn.jsdelivr.net/gh/cao-zhiming/ss-caozhimingtk@0.9.4/img/sun.svg" alt="Light">
+
+        <div class="toggle wp-dark-mode-ignore"></div>
+
+        <img class="moon-light" src="https://cdn.jsdelivr.net/gh/cao-zhiming/ss-caozhimingtk@0.9.4/img/moon.svg" alt="Dark">
+    </label>
+
   <%- partial('_partial/analytics') %>
+  <script src='https://cdn.jsdelivr.net/gh/cao-zhiming/ss-caozhimingtk@0.9.4/js/frontend.js' id='wp-dark-mode-frontend-js'></script>
 </body>
 
 </html>
