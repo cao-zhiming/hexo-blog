@@ -13,12 +13,14 @@ layout: py
 >陪伴让我们扬起嘴角。
 >      ——《这场青春值得骄傲》
 
+感谢这些陪伴着或陪伴过我的朋友们，没有你们，我和我的网站无法成为今天的样子。
+
 ## 友情链接
 
 <!-- more -->
 
 - [![Micraow Blog](https://cdn.jsdelivr.net/gh/Micraow/pics/favicon.png)](https://msblog.ml "Micraow Blog")
-- [![李天星的网站](https://ss.caozhiming.tk//img//litianxing-logo.png)](http://82.156.235.117 "李天星的网站")
+- [![李天星的网站](https://ss.caozhiming.tk//img//litianxing-logo.png)](https://ltx1102.com "李天星的网站")
 
 ## 交换链接
 
