@@ -12,4 +12,6 @@ notshow: true
 ## 中考实时倒计时
 
 <!-- more -->
-<iframe src="https://ss.caozhiming.tk/exam-time.html"></iframe>
+<iframe src="https://ss.caozm.tk/exam-time.html"></iframe>
+
+以上为2023级初三毕业的中考倒计时。奋斗吧，少年！拼搏吧，少年！
