@@ -38,14 +38,14 @@ permalink: /2021/05/02/why-i-moved-to-hexo/
 
 所以，到底啥灾难啊？不用我回答，这个图已经明摆着了：
 
-![网站Status记录的截图](https://ss.caozhiming.tk//img/status-show.png)
+![网站Status记录的截图](https://cdn.jsdelivr.net/gh/cao-zhiming/ss-caozhimingtk@0.9.2/img/status-show.png)
 
 曾经24小时无法访问！！！
 刚好了一天，第二天又7小时无法访问！！！
 
 然后我去翻了翻Micraow的Hexo博客的状态~~，差点馋哭了~~。
 
-![Micraow网站的状态截图](https://ss.caozhiming.tk/img//micraow-status.png)
+![Micraow网站的状态截图](https://cdn.jsdelivr.net/gh/cao-zhiming/ss-caozhimingtk@0.9.2/img/micraow-status.png)
 
 100%在线！而且，它的访问速度超快，而我的网站的速度又是另一个故事了……
 
