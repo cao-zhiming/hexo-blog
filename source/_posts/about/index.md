@@ -24,5 +24,5 @@ layout: about
 
 ## 我该如何信任你？
 
-我是```caozhiming.tk```的合法所有者，并已经在[Keybase](http://keybase.io)存储了[pgp key](https://keybase.io/caozhiming)。
+我是```caozm.tk```的合法所有者。
 
