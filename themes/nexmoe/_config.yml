@@ -13,7 +13,7 @@ function: # 功能开关，可选值（true,false）
 # 附加图标库 用于自定义字体 www.iconfont.cn 登录->创建项目->添加图标->获取链接
 iconlib: # //at.alicdn.com/t/font_1038733_0xvrvpg9c0r.css
 
-search: https://cn.bing.com/search?q=site:blog.caozhiming.tk # https://www.google.com/search?q=blog.caozhiming.tk
+search: https://cn.bing.com/search?q=site:blog.caozm.tk # https://www.google.com/search?q=blog.caozhiming.tk
 
 cdn: # 这里可以修改站点使用的库的CDN
   disqusjs: 
@@ -39,7 +39,7 @@ menu:
   我的朋友: 
     - /links/
   公共云盘: 
-    - https://cloud.caozhiming.tk/
+    - https://cloud.caozm.tk/
 
 widgets:
 - search
@@ -64,7 +64,7 @@ social:
     - rgb(29, 161, 242)
     - rgba(29, 161, 242, .1)
   Email:
-    - mailto:caozhiming@caozhiming.tk
+    - mailto:caozm@caozm.tk
     - icon-mail-fill
     - rgb(9, 9, 9)
     - rgba(9, 9, 9, .1)
