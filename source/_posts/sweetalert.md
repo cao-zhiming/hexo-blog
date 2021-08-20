@@ -19,7 +19,7 @@ permalink: /2021/05/22/sweetalert/
 
 ~~在互联网上混迹多年的~~你，可能会看到一些这样的弹窗：
 
-<img src="https://ss.caozhiming.tk//img//js-alert.png"></p>
+<img src="https://cdn.jsdelivr.net/gh/cao-zhiming/ss-caozhimingtk@0.9.3/img/js-alert.png"></p>
 
 那个啥，这个效果是我用**本地JavaScript代码**搞出来的，可不是人家白宫官网自带的。~~我的网站还没有著名到让美国政府都知晓的程度。~~
 
