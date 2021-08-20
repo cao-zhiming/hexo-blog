@@ -106,7 +106,7 @@ INFO  Hexo is running at http://localhost:4000. Press Ctrl+C to stop.
 
 于是，你应当打开一个浏览器~~（众所周知，IE不属于浏览器）~~，前往```localhost:4000```，并惊喜地发现：
 
-![Hexo已成功部署在本地](https://ss.caozhiming.tk//img//hexo-demo.png)
+![Hexo已成功部署在本地](https://ss.caozm.tk//img//hexo-demo.png)
 
 好啦，至此，准备工作已就绪。接下来，有请重磅嘉宾——**Vercel**。
 
