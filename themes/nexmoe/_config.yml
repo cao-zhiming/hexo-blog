@@ -118,7 +118,7 @@ changyan:
   thread_key_type: path # 可选 id 或 path
 
 livere:
-  data_uid: MTAyMC81MzM4OC8yOTg2Mg== # 你的来必力 UID，可以在来必力后台获取
+  data_uid: MTAyMC81MzgyNy8zMDMwMA== # 你的来必力 UID，可以在来必力后台获取
 
 DiscussBot:
   id: <id> # 站点id
