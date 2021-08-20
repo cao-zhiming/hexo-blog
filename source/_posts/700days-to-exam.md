@@ -15,5 +15,5 @@ author: 曹智铭&中考倒计时
 
 <!-- more -->
 
-根据[本网站中考倒计时](https://blog.caozhiming.tk/zk-exam-time/)的数据，还有700天我们（包括我和与我同级的同学们）就要中考了。
+根据[本网站中考倒计时](https://blog.caozm.tk/zk-exam-time/)的数据，还有700天我们（包括我和与我同级的同学们）就要中考了。
 
