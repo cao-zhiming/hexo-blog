@@ -67,7 +67,8 @@ permalink: /2021/08/21/rescue-this-website/
 
 第二天，我又打电话给了Freenom。值得庆幸的是，它们接了电话，我终于联系上他们了。
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js">
+<!DOCTYPE html><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></head><body>
 <div id="aplayer"></div>
 <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
 
@@ -81,7 +82,7 @@ const ap = new APlayer({
         cover: 'https://cdn.jsdelivr.net/gh/cao-zhiming/ss-caozhimingtk@0.9.5/img/favicon.jpg'
     }]
 });
-</script>
+</script></body></html>
 
 打完电话，我打开了邮箱，发现Micraow已经给了我答复。他说最好使用**无痕模式**，**关掉拦截广告和Cookies的程序**。于是，我照办了。
 
