@@ -20,15 +20,15 @@ layout: py
 <!-- more -->
 
 - [![Micraow Blog](https://cdn.jsdelivr.net/gh/Micraow/pics/favicon.png)](https://msblog.ml "Micraow Blog")
-- [![李天星的网站](https://ss.caozhiming.tk//img//litianxing-logo.png)](https://ltx1102.com "李天星的网站")
+- [![李天星的网站](https://cdn.jsdelivr.net/gh/cao-zhiming/ss-caozhimingtk@0.9.3/img/litianxing-logo.png)](https://ltx1102.com "李天星的网站")
 
 ## 交换链接
 
 请在你的网站上添加如下友情链接：
 
 > 名称：曹智铭的网站
-> 链接：https://blog.caozhiming.tk/
-> 图片：https://cdn.jsdelivr.net/gh/cao-zhiming/ss-caozhimingtk@latest/img/logo.png
+> 链接：https://blog.caozm.tk/
+> 图片：https://cdn.jsdelivr.net/gh/cao-zhiming/ss-caozhimingtk@0.9.5/img/logo.png
 > 描述：长期潜伏于caozhiming.tk的碳基生物。
 
 然后在下方按照相同的格式评论你的网站的相关内容。我会尽快审核并添加。
