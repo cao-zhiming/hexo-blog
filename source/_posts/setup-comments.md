@@ -61,5 +61,6 @@ permalink: /2021/05/03/setup-comments/
 
 ## BUG更新
 
-Pure主题下，livere可用；但是fluid主题下，livere不显示出全部评论内容。已提交[issue](https://github.com/fluid-dev/hexo-theme-fluid/issues/471)。
+<del>Pure主题下，livere可用；但是fluid主题下，livere不显示出全部评论内容。已提交[issue](https://github.com/fluid-dev/hexo-theme-fluid/issues/471)。</del>
+2021/10/03 更新：该issue并不存在，且目前已迁移至使用[Waline](https://waline.js.org)，它更易用、全面支持简体中文、加载快、更符合本网站风格。
 

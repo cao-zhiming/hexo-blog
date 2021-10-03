@@ -26,7 +26,7 @@ PWA全称**Progressive Web App**，即**渐进式网络应用**（自己翻译�
 - UI（图形界面）好评，*妈妈再也不用担心我的网页访问起来不好看了*；
 - 无需下载和安装，*妈妈再也不用担心我的安装包到处都是了*；
 - 软件初版、迭代更新不必提交到App平台审核，*妈妈再也不用担心我的应用无缘由地审核不过了*；
-- 不必开发Windows、MacOS X、Linux、Android、iOS、Android、iPadOS这么一堆版本，*妈妈再也不用担心我的电脑被开发的不同版本的软件塞满了*。
+- 不必开发Windows、MacOS X、Linux、Android、iOS、iPadOS这么一堆版本，*妈妈再也不用担心我的电脑被开发的不同版本的软件塞满了*。
 
 好吧，那么，我们就开始整PWA吧！
 
@@ -148,7 +148,7 @@ if ('serviceWorker' in navigator) {
 
 ![PWA询问你是否安装](https://cdn.jsdelivr.net/gh/cao-zhiming/ss-caozhimingtk@1.0/img/pwa-ready.png)
 
-以上就是有关PWA的一些内容以及相关安装方法。
+以上就是有关PWA的一些内容以及相关安装方法。感谢你的阅读。
 
 
 

@@ -21,6 +21,7 @@ layout: py
 
 - [![Micraow Blog](https://cdn.jsdelivr.net/gh/Micraow/pics/favicon.png)](https://msblog.ml "Micraow Blog")
 - [![李天星的网站](https://cdn.jsdelivr.net/gh/cao-zhiming/ss-caozhimingtk@0.9.3/img/litianxing-logo.png)](https://ltx1102.com "李天星的网站")
+- [![Spencer's Blog](https://blog.spencerwoo.com/images/avatar.png)](https://blog.spencerwoo.com "Spencer's Blog")
 
 ## 交换链接
 
