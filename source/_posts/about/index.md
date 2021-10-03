@@ -9,7 +9,7 @@ layout: about
 
 ## 我是谁？
 
-我叫曹智铭，目前就读于[人大附中翠微学校](http://www.rdfzcw.cn/)的初中部。
+你好，我叫曹智铭，目前就读于[人大附中翠微学校](http://www.rdfzcw.cn/)的初中部。我出生于2008年，喜爱编程。
 <!-- more -->
 
 ## 我在哪儿？
@@ -22,7 +22,10 @@ layout: about
 <details><summary>我可以干这些：</summary>
 <li>数学：★★★☆☆</li><li>英语：★★★★☆</li><li>前端：★★★☆☆</li><li>PHP：★★☆☆☆</li><li>Git：★★★☆☆</li></details>
 
-## 我该如何信任你？
+## 你该如何信任我？
 
-我是```caozm.tk```的合法所有者。
+我是```caozm.tk```的合法所有者。我已经在[Keybase](https://keybase.io/caozhiming)存储了相关PGP Keys。
 
+## 如何联系我？
+
+请你[发邮件给我](mailto:caozm@caozm.tk?CC=3132003491@qq.com)。
