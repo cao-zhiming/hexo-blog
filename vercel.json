@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/wp-login.php",
+      "destination": "https://comment.caozm.tk/ui/login"
+    }
+  ]
+}
